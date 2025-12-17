@@ -27,9 +27,6 @@
   background: rgba(54, 49, 49, 0.557);
   backdrop-filter: blur(10px);
   padding: 0.8rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
 /* NAV */
