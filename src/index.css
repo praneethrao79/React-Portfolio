@@ -54,6 +54,32 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    width: 90%;
+    font-size: 1em;
+    padding: 15px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .nav-btn {
+    width: 85%;
+    padding: 18px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  .nav-btn {
+    max-width: 400px;
+    width: 60%;
+  }
+}
+
+
 .nav-btn:hover,
 .nav-btn.active {
   background: rgba(255, 255, 255, 0.3);
